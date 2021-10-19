@@ -35,7 +35,7 @@ export default function Navbar() {
                 </Disclosure.Button>
               </div>
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start ">
-                <div className="flex-shrink-0  items-center hidden sm:flex">
+                <div className="flex-shrink-0  items-center flex">
                   <img
                     className="block lg:hidden h-8 w-auto"
                     src="/logo.png"
@@ -61,7 +61,7 @@ export default function Navbar() {
                           item.current
                             ? "bg-gray-900 text-white"
                             : "text-black hover:bg-green-400 hover:text-white",
-                          "px-3 py-2 rounded-md text-sm font-medium"
+                          "px-1 lg:px-3 py-2 rounded-md text-sm font-medium"
                         )}
                       >
                         {item.name}
@@ -85,7 +85,7 @@ export default function Navbar() {
                   <span className="sr-only">Shopping Cart</span>
                   <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
                 </button>
-                <div className="grid grid-cols-2 divide-x divide-gray-300">
+                <div className="grid grid-cols-2 divide-x divide-gray-300 hidden sm:flex">
                   <div className="ml-3.5">
                     <a className="px-3 py-2 rounded-md text-sm font-medium text-black hover:bg-green-400 hover:text-white uppercase">
                       Login
@@ -93,7 +93,7 @@ export default function Navbar() {
                   </div>
                   <div className="">
                     <a className="ml-1 px-3 rounded-md py-2 text-sm font-medium text-black hover:bg-green-400 hover:text-white uppercase">
-                      Sing up
+                      Sign up
                     </a>
                   </div>
                 </div>
