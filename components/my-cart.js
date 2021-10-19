@@ -134,7 +134,7 @@ function MyCart() {
                       </div>
                     </div>
                   </div>
-                  <div className="">150 THB</div>
+                  <div className="text-gray-400 font-light">150 THB</div>
                 </div>
               </div>
             </div>
@@ -152,19 +152,21 @@ function MyCart() {
                   <div className="flex bg-white py-2 px-1 sm:px-2 shadow-xl rounded-lg my-4 mx-4 sm:px-1 w-9">
                     <img
                       className="h-5 w-5 "
-                      src="/file-icon-blue.png"
+                      src="/file-orange.png"
                       alt="image"
                     />
                   </div>
                   <div className="flex text-white my-2 font-medium sm:text-lg ml-4 text-base">
-                    Google Doc
+                    Google Slides
                   </div>
                   <div className="text-white ml-4 sm:text-sm font-light text-xs">
                     Used for Business
                   </div>
                 </div>
                 <div className="">
-                  <p className="sm:text-2xl font-light text-xl">Google Doc</p>
+                  <p className="sm:text-2xl font-light text-xl">
+                    Google Slides
+                  </p>
                   <div>
                     <div className="flex justify-start items-center flex-col sm:flex-row mt-1">
                       <div className="">
@@ -241,7 +243,7 @@ function MyCart() {
                       </div>
                     </div>
                   </div>
-                  <div className="">150 THB</div>
+                  <div className="text-gray-400 font-light">150 THB</div>
                 </div>
               </div>
             </div>
@@ -253,11 +255,11 @@ function MyCart() {
               </div>
 
               <div className="flex justify-between">
-                <div className="text-lg py-2">
+                <div className="text-lg py-2 text-gray-400 font-light">
                   <p>Subtotal</p>
                 </div>
                 <div className="text-lg py-2">
-                  <div className="flex flex-row space-x-2 w-full items-center rounded-lg">
+                  <div className="flex flex-row space-x-2 w-full items-center rounded-lg text-gray-400 font-light">
                     <p>THB 300</p>
                   </div>
                 </div>
@@ -279,7 +281,7 @@ function MyCart() {
                 <div className="">
                   <button
                     type="button"
-                    className="text-lg font-semibold text-green-400 w-full rounded-lg px-10 py-2 block border border-green-400 hover:text-white hover:bg-green-400"
+                    className="text-lg font-semibold text-green-400 w-full rounded-2xl px-10 py-2 block border border-green-400 hover:text-white hover:bg-green-400"
                   >
                     Apply
                   </button>
@@ -291,7 +293,7 @@ function MyCart() {
                   <p>Total Payment</p>
                 </div>
                 <div className="text-lg py-2">
-                  <div className="flex flex-row space-x-2 w-full items-center rounded-lg font-semibold text-4xl">
+                  <div className="flex flex-row space-x-2 w-full items-center  font-semibold text-4xl text-green-400">
                     <p>THB 300</p>
                   </div>
                 </div>
@@ -299,7 +301,7 @@ function MyCart() {
               <div className="mt-10 mb-4">
                 <button
                   type="button"
-                  className="mt-3 text-lg font-semibold bg-green-400 w-full text-black rounded-lg px-6 py-3 block shadow-xl hover:bg-green-500"
+                  className="mt-3 text-lg font-semibold bg-green-400 w-full text-black rounded-2xl px-6 py-3 block shadow-xl hover:bg-green-500"
                 >
                   Login To Checkout
                 </button>

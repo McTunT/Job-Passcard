@@ -48,7 +48,9 @@ export default function Navbar() {
                   />
                   <span className="mr-2 flex text-xl">
                     <p className="font-medium mr-1">Job</p>
-                    <span className="font-light">Passcard</span>
+                    <span className="ffont-extralight text-gray-500">
+                      Passcard
+                    </span>
                   </span>
                 </div>
                 <div className="hidden sm:block sm:ml-6 flex-1">
@@ -86,7 +88,7 @@ export default function Navbar() {
                   <ShoppingCartIcon className="h-6 w-6" aria-hidden="true" />
                 </button>
                 <div className="grid grid-cols-2 divide-x divide-gray-300 hidden sm:flex">
-                  <div className="ml-3.5">
+                  <div className="mr-1">
                     <a className="px-3 py-2 rounded-md text-sm font-medium text-black hover:bg-green-400 hover:text-white uppercase">
                       Login
                     </a>
