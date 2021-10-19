@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+.circle-rating {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.circle {
+  cursor: pointer;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin: 5px;
+  background-color: #f3f4f6;
+  border-radius: 50%;
+}
+
+.circle.selected {
+  background-color: #34d399;
+}
