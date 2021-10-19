@@ -1,4 +1,4 @@
-import Navbar from "./Nav"
+import Navbar from "./nav"
 import Head from "next/head"
 
 export default function Layout({ children }) {
