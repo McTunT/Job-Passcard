@@ -32,7 +32,7 @@ function MyCart() {
         <h1 className="text-4xl m-8 font-bold"> My Cart</h1>
         <div className="grid grid-cols-12 gap-6">
           <div className="col-span-12 sm:col-span-7 md:col-span-12 lg:col-span-7 xxl:col-span-7">
-            <div className="bg-white py-8 px-1 sm:px-4 shadow-xl rounded-lg my-4 mx-4 sm:px-1">
+            <div className="bg-white py-8 px-1 sm:px-4 shadow-lg rounded-lg my-4 mx-4 sm:px-1">
               <div className="flex justify-around px-4 items-center">
                 <div className="flex mr-5 sm:mr-10">
                   <img
@@ -139,7 +139,7 @@ function MyCart() {
               </div>
             </div>
 
-            <div className="bg-white py-8 px-1 sm:px-4 shadow-xl rounded-lg my-4 mx-4 sm:px-1 mt-6">
+            <div className="bg-white py-8 px-1 sm:px-4 shadow-lg rounded-lg my-4 mx-4 sm:px-1 mt-6">
               <div className="flex justify-around px-4 items-center">
                 <div className="flex mr-5 sm:mr-10">
                   <img
@@ -249,7 +249,7 @@ function MyCart() {
             </div>
           </div>
           <div className="col-span-12 sm:col-span-5 md:col-span-12 lg:col-span-5 xxl:col-span-5">
-            <div className="bg-white py-4 px-4 shadow-xl rounded-lg my-4 mx-4">
+            <div className="bg-white py-4 px-4 border border-gray-200 rounded-lg my-4 mx-4">
               <div className="text-2xl py-2 mb-4 font-medium">
                 <p>Order Info</p>
               </div>
@@ -264,7 +264,7 @@ function MyCart() {
                   </div>
                 </div>
               </div>
-              <div className="py-2 border-b-2 mb-2 pb-10 flex justify-around mt-6">
+              <div className="py-2 border-b mb-2 pb-10 flex justify-around mt-6">
                 <div className="mt-3 mr-4">
                   <img className="h-5 w-5" src="/cupon-icon.png" />
                 </div>
